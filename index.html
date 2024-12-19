@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2024 Platform Year in Review</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    .bg-primary { background-color: #4299E1; }
+    .text-primary { color: #4299E1; }
+    .list-item {
+      display: flex;
+      background-color: #fff;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    .list-item:hover {
+      transform: translateY(-4px);
+    }
+    .list-item .thumbnail {
+      width: 160px;
+      height: 120px;
+      overflow: hidden;
+      border-radius: 0.5rem;
+      margin-right: 1.5rem;
+    }
+    .list-item .thumbnail img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .list-item .content {
+      flex: 1;
+    }
+    .list-item .content h3 {
+      font-size: 1.25rem;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+    }
+    .list-item .content p {
+      font-size: 0.875rem;
+      color: #4B5563;
+      margin-bottom: 1rem;
+    }
+    .list-item .content a {
+      font-size: 0.875rem;
+      color: #6B7280;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body class="font-sans">
+  <header class="bg-primary text-white">
+    <div class="container mx-auto px-4 py-20 flex items-center">
+      <span class="text-2xl mr-4">
+        <!-- 随机显示一个 emoji -->
+        <span>💻</span>
+      </span>
+      <div>
+        <h1 class="text-5xl font-bold mb-4">2024 Platform Year in Review</h1>
+        <p class="text-xl">Comprehensive analysis of the top 50 global websites and platforms.</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-4 py-8">
+    <section>
+      <h2 class="text-3xl font-bold text-primary mb-4">Top 50 Global Websites</h2>
+      <div>
+        <a href="https://thegameawards.com/" class="list-item">
+          <div class="thumbnail">
+            <img src="https://cdn.thegameawards.com//frontend/svgs/logo-tga-gold.svg" alt="TGA" />
+          </div>
+          <div class="content">
+            <h3>TGA</h3>
+            <p>Celebrate the best in video games and see what's next - Live from the Peacock Theater in Los Angeles.</p>
+            <span class="text-gray-500">https://thegameawards.com/</span>
+          </div>
+        </a>
+        <a href="https://www.businessinsider.com/" class="list-item">
+          <div class="thumbnail">
+            <img src="/api/placeholder/160/120" alt="Business Insider" />
+          </div>
+          <div class="content">
+            <h3>Business Insider</h3>
+            <p>Business Insider provides in-depth analysis of the global economy and business industry.</p>
+            <span class="text-gray-500">https://www.businessinsider.com/</span>
+          </div>
+        </a>
+        <a href="https://www.tmz.com/" class="list-item">
+          <div class="thumbnail">
+            <img src="/api/placeholder/160/120" alt="TMZ" />
+          </div>
+          <div class="content">
+            <h3>TMZ</h3>
+            <p>TMZ covers celebrity news, entertainment news, and gossip.</p>
+            <span class="text-gray-500">https://www.tmz.com/</span>
+          </div>
+        </a>
+        <!-- 其他 47 个网站的列表 -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gray-900 text-white py-4">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; 2024 Platform Year in Review. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
